@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="ZhuangListPanelSkin" width="400" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
-	<e:Rect width="400" height="40" x="0" y="0" fillAlpha="0.4"/>
-	<e:Label id="txtNum" text="1" x="5" size="22" verticalCenter="0"/>
-	<e:Label id="txtName" text="名字六个字啊" x="113" anchorOffsetX="0" width="147" anchorOffsetY="0" height="25" size="22" verticalAlign="middle" textAlign="center" verticalCenter="0"/>
-	<e:Label id="txtVip" text="VIP 1" x="24" anchorOffsetX="0" width="83" anchorOffsetY="0" height="25" size="22" verticalAlign="middle" textAlign="center" verticalCenter="0" textColor="0xffff00"/>
-	<e:Label id="txtGold" text="10000000w" x="249" anchorOffsetX="0" width="147" anchorOffsetY="0" height="25" size="22" verticalAlign="middle" textAlign="right" verticalCenter="0"/>
-</e:Skin>

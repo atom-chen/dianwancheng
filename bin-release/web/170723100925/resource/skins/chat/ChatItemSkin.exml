@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="ChatItemSkin" width="398" height="45" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Label id="txtSys" verticalAlign="middle" size="18" text="[名字六个字日]:爆了爆了爆了爆了爆" textAlign="left" width="391" height="39" verticalCenter="0" horizontalCenter="0.5" textColor="0xFFFFFF" visible="false"/>
-	<e:Group id="chatGroup" height="45" width="398" x="0" y="0">
-		<e:Label id="txtSay" size="18" text="[名字六个字日]:爆了爆了爆了爆了爆" x="38" y="3" width="355" height="39" textAlign="left" verticalAlign="middle" textColor="0xE938F2"/>
-		<e:Image id="icon" height="30" width="30" x="3" y="8"/>
-	</e:Group>
-</e:Skin>
