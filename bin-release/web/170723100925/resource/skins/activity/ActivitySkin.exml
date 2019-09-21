@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivitySkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Rect id="closeRect" width="640" height="1008" x="0" y="0" fillAlpha="0.6" anchorOffsetY="0" />
+	<e:Image horizontalCenter="0" verticalCenter="20" source="c.bg" />
+	<e:Image source="hd.title" y="152" horizontalCenter="0.5" />
+	<e:Rect width="552" height="316" x="44" y="575" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x1f185f" ellipseWidth="20" fillAlpha="0.8"/>
+	<e:Scroller width="558" height="344" x="41" y="224" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="itemGroup"/>
+	</e:Scroller>
+	<e:Scroller id="txtScroller" width="517" height="296" x="61.5" y="585" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group id="textGroup">
+			<e:Label id="txtContent" text="1,每天登陆游戏,就能参与幸运大转盘,充值,在线,也能增加抽奖次数\n2,点开游戏设置,提交游戏BUG和建议,一旦采纳,立马奖励游戏币50万\n3,每日充值任意金额,就能获取100万*vip等级的金币\n4,开服起,游戏会不定时发放游戏币红包,让你嗨翻天" anchorOffsetX="0" width="509" anchorOffsetY="0" size="22" lineSpacing="15" scaleX="1" scaleY="1" x="3"/>
+			<e:Image id="btnTurn" source="hd.btnturn" x="131.5" scaleX="1" scaleY="1" y="214"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="closeBtn" source="c.btnclose" x="560" y="166.5"/>
+</e:Skin>

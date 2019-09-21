@@ -1,0 +1,3 @@
+1，本机调试修改GlobalData类下的isDebug为true.发布改为false
+2,PayManage 管理支付的。看下就知道了。
+3，前端主要配置在config.json

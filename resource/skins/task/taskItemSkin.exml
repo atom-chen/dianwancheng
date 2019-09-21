@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskItemSkin" width="540" height="125" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" anchorOffsetX="0" source="c.itembg" />
+	<e:Image id="btnTouch" x="402" y="36" source="task.btnget" />
+	<e:Image x="23" y="84" source="task.loadbg" />
+	<e:Image id="imgLoad" x="24" y="84" source="task.loadbar" scale9Grid="6,1,177,6" />
+	<e:Image x="212" y="15" scaleX="0.7" scaleY="0.7" source="task.coinbg" />
+	<e:Label id="labName" text="&lt;庄家大礼包&gt;" x="23" y="18" bold="true" anchorOffsetX="0" width="284" textColor="0xFFDE00"
+	         size="20" />
+	<e:Label id="labInfo" text="每日在任意游戏中坐庄10局" x="22" y="45" anchorOffsetX="0" width="380" textColor="0xffffff" size="16"
+	         anchorOffsetY="0" height="35" />
+	<e:Label id="labLoad" text="99/99" x="244" y="80" textColor="0xFFFFFF" anchorOffsetX="0" width="63" size="16"
+	         textAlign="center" />
+	<e:Label id="labGold" text="12345" x="236" y="20" bold="true" anchorOffsetX="0" width="55" size="14"
+	         textColor="0xFFDE00" textAlign="center" />
+	<e:Label id="labGoldDouble" text="x VIP等级" x="300.8" y="16.4" bold="true" anchorOffsetX="0" width="111.4" size="18"
+	         textColor="0xFFDE00" textAlign="left" />
+	<e:Image id="imgSign" source="task.nocomplete" x="426.5" y="43" />
+</e:Skin>

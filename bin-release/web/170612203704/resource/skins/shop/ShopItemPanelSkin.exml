@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ShopItemPanelSkin" width="540" height="105" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="shop.itembg" x="0" y="0"/>
+	<e:Label id="txtName" text="标签" x="103" y="24" anchorOffsetX="0" width="269" textColor="0xffff00" size="22" fontFamily="微软雅黑"/>
+	<e:Label id="txtDesc" text="标签" x="104" y="54" anchorOffsetX="0" width="280" textColor="0xffffff" size="18" fontFamily="微软雅黑"/>
+	<e:Image id="icon" source="shop.item0" x="17" y="16"/>
+	<e:Label id="txtPrice" text="30元" x="394" y="17" anchorOffsetX="0" width="100" textColor="0xFFFF00" textAlign="center" fontFamily="微软雅黑" size="20"/>
+	<e:Image id="btnChong" x="385.5" y="44" source="shop.btnChong"/>
+</e:Skin>

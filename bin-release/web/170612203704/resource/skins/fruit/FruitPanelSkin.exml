@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="FruitPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="fruit.bgg" />
+	<e:Image id="imgfa" x="335" y="954.5" source="fruit.imgfa" />
+	<e:Image id="btnQiehuan" x="498" y="940.5" source="fruit.qiehuanb" />
+	<e:Label id="txtMaxName" y="74" height="27" text="名字六个字啊" fontFamily="微软雅黑" textAlign="center" width="130" size="18"
+	         x="317.5" anchorOffsetY="0" verticalAlign="middle" anchorOffsetX="0" />
+	<e:Group x="14" y="930.5">
+		<e:Image id="head" height="60" width="60" x="3" y="3" />
+		<e:Image source="fruit.headbg" />
+		<e:Image id="btnVip" source="vipbg" x="5" y="52" />
+		<e:Label id="txtVip" text="VIP.15" x="7" size="16" width="50" textAlign="center" touchEnabled="false" y="56" />
+	</e:Group>
+	<e:Group x="345" y="1">
+		<e:Image id="maxhead" height="60" width="60" x="3" y="3" />
+		<e:Image source="fruit.headbg" />
+		<e:Image id="btnVip0" source="vipbg" x="5" y="52" />
+		<e:Label id="txtMaxVip" text="VIP.15" x="7" size="16" width="50" textAlign="center" touchEnabled="false" y="56" />
+	</e:Group>
+	<e:Image id="zhiqian5" y="552" x="277" source="fruit.3d" />
+	<e:Image id="zhiqian6" y="552" x="235" source="fruit.3d" />
+	<e:Image id="zhiqian7" y="552" x="193" source="fruit.3d" />
+	<e:Image id="zhiqian8" y="552" x="151" source="fruit.3d" />
+	<e:Image id="zhiqian9" y="552" x="109" source="fruit.3d" />
+	<e:Image id="zhiqian0" y="552" x="487" source="fruit.3d" />
+	<e:Image id="zhiqian1" y="552" x="445" source="fruit.3d" />
+	<e:Image id="zhiqian2" y="552" x="403" source="fruit.3d" />
+	<e:Image id="zhiqian3" y="552" x="361" source="fruit.3d" />
+	<e:Image id="zhiqian4" y="552" x="319" source="fruit.3d" />
+	<e:Image id="z14" source="fruit.2b" x="217" y="589" />
+	<e:Image id="z8" y="347" x="531" source="fruit.9b" />
+	<e:Image id="z0" y="107" x="9" source="fruit.6b" />
+	<e:Image id="z15" x="113" y="589" source="fruit.5b" />
+	<e:Image id="z16" y="588" x="9" source="fruit.6b" />
+	<e:Image id="z17" y="508" x="8" source="fruit.7b" />
+	<e:Image id="z18" y="428" x="8" source="fruit.8b" />
+	<e:Image id="z4" y="106" horizontalCenter="154" source="fruit.5b" />
+	<e:Image id="z11" y="588" x="531" source="fruit.6b" />
+	<e:Image id="z19" x="8" y="348" source="fruit.10b" />
+	<e:Image id="z20" y="267" x="8" source="fruit.3b" />
+	<e:Image id="z21" y="187" x="8" source="fruit.4b" />
+	<e:Image id="z1" x="113" y="106" source="fruit.7b" />
+	<e:Image id="z2" source="fruit.8b" y="106" x="216" />
+	<e:Image id="z3" y="106" x="320" source="fruit.1b" />
+	<e:Image id="z5" x="527" y="107" source="fruit.6b" />
+	<e:Image id="z6" y="186" x="531" source="fruit.7b" />
+	<e:Image id="z7" y="266" x="531" source="fruit.8b" />
+	<e:Image id="z9" x="531" y="428" source="fruit.3b" />
+	<e:Image id="z10" y="508" x="531" source="fruit.4b" />
+	<e:Image id="z12" x="426" y="589" source="fruit.7b" />
+	<e:Image id="z13" y="589" x="322" source="fruit.8b" />
+	<e:Label id="txtName" y="935" height="27" text="名字六个字啊" fontFamily="微软雅黑" textAlign="center" width="190" size="20"
+	         x="96.5" anchorOffsetY="0" verticalAlign="middle" />
+	<e:BitmapLabel id="txtGold" y="970.5" text="1000000万" x="127" font="rankgold_fnt" />
+	<e:Group x="118" y="268" anchorOffsetX="0" width="404">
+		<e:BitmapLabel id="txtCaijin" y="0" text="99999999" horizontalCenter="0" font="daojishitext_fnt" />
+	</e:Group>
+	<e:Image id="btnClose" source="fruit.btnQuit" x="35" y="20" />
+	<e:Group x="282" y="702" anchorOffsetX="0" width="74">
+		<e:BitmapLabel id="txtTime" y="0" font="daojishitext_fnt" text="9" horizontalCenter="-4" />
+	</e:Group>
+	<e:Label id="txtCurrent1" y="776" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="70"
+	         size="18" x="13" />
+	<e:Label id="txtCurrent2" y="760" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="70"
+	         size="18" x="87" anchorOffsetY="0" height="46" verticalAlign="middle" border="true" borderColor="0x6b4a4a" />
+	<e:Label id="txtCurrent3" y="760" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="84"
+	         size="18" x="156" anchorOffsetY="0" height="46" verticalAlign="middle" border="true" borderColor="0x6b4a4a"
+	         anchorOffsetX="0" />
+	<e:Label id="txtCurrent4" y="760" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="80"
+	         size="18" x="240" anchorOffsetY="0" height="46" verticalAlign="middle" border="true" borderColor="0x6b4a4a"
+	         anchorOffsetX="0" />
+	<e:Label id="txtDanzhu" y="970.5" text="单注:10000" fontFamily="微软雅黑" textAlign="center" width="180" size="18" x="457.5"
+	         anchorOffsetY="0" height="30" verticalAlign="middle" border="false" borderColor="0x6b4a4a" anchorOffsetX="0" />
+	<e:Label id="txtCurrent5" y="760" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="82"
+	         size="18" x="320" anchorOffsetY="0" height="46" verticalAlign="middle" border="true" borderColor="0x6b4a4a"
+	         anchorOffsetX="0" />
+	<e:Label id="txtCurrent6" y="760" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="79"
+	         size="18" x="402" anchorOffsetY="0" height="46" verticalAlign="middle" border="true" borderColor="0x6b4a4a"
+	         anchorOffsetX="0" />
+	<e:Label id="txtCurrent7" y="760" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="75"
+	         size="18" x="481" anchorOffsetY="0" height="46" verticalAlign="middle" border="true" borderColor="0x6b4a4a"
+	         anchorOffsetX="0" />
+	<e:Label id="txtCurrent8" y="760" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="center" width="74"
+	         size="18" x="556.5" anchorOffsetY="0" height="46" verticalAlign="middle" border="true" borderColor="0x6b4a4a"
+	         anchorOffsetX="0" />
+	<e:Image id="zhu1" x="11" y="812" source="fruit.l1" />
+	<e:Image id="zhu2" source="fruit.l2" x="91" y="812" />
+	<e:Image id="zhu3" source="fruit.l3" x="169" y="812" />
+	<e:Image id="zhu4" source="fruit.l4" x="247" y="812" />
+	<e:Image id="zhu5" source="fruit.l5" x="331" y="812" />
+	<e:Image id="zhu6" source="fruit.l6" x="409" y="812" />
+	<e:Image id="zhu7" source="fruit.l7" x="485" y="812" />
+	<e:Image id="zhu8" source="fruit.l8" x="565" y="812" />
+	<e:Image id="btnChong" y="965.5" x="258" source="btnChong" />
+	<e:Image id="guang" source="fruit.guang" x="62" y="247" visible="false" />
+	<e:Image source="gold" x="93.5" y="962.5" width="30" height="30" />
+	<e:Image source="fruit.shuiguowang" x="184" y="2" />
+	<e:Image source="fruit.btnHelp" x="550" y="20" />
+	<e:Image id="btnJilu" source="fruit.btnJilu" x="27" y="688" />
+	<e:Image id="btnFeng" source="fruit.btnFeng" x="355" y="687" />
+	<e:Label id="txtTipFengpan" text="已封盘" x="285" y="837.5" visible="false" />
+	<e:Image id="helptips" source="hall.helptips" y="688" horizontalCenter="0" />
+</e:Skin>

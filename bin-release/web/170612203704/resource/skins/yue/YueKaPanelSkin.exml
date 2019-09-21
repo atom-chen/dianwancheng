@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="YueKaPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="closeRect" height="1008" width="640" x="0" y="0" fillAlpha="0.6" />
+	<e:Image horizontalCenter="0" verticalCenter="0" source="c.bg" />
+	<e:Image source="yue.title" x="276.5" y="129.5" />
+	<e:Image id="quan1" source="yue.kuang" x="62.5" y="243.5"/>
+	<e:Image id="quan2" source="yue.kuang" x="327" y="243" visible="false"/>
+	<e:Image id="yueka" source="yue.yueka" x="77.5" y="262" />
+	<e:Image id="zhongshenka" source="yue.zhongshenka" x="342" y="262" />
+	<e:Image source="c.btnclose" y="140" x="563" id="btnClose" />
+	<e:Image source="yue.rmb150" x="413" y="567" />
+	<e:Image source="yue.rmb50" x="148.5" y="574" />
+	<e:Image id="btnJiHuo" source="yue.btnJiHuo" y="715" horizontalCenter="0.5" />
+	<e:Image id="yueisbuy" x="151" y="629" source="yue.nobuy" />
+	<e:Image id="zhongisbuy" source="yue.nobuy" x="438" y="629" />
+	<e:Label text="效果持续30天" x="119" y="447" size="18" fontFamily="微软雅黑" width="141" height="18" />
+	<e:Label id="txtYueStr1" y="476" size="18" text="每日领取100万" fontFamily="微软雅黑" width="158" height="18" x="119" />
+	<e:Label id="txtYueStr2" y="503" height="18" text="充值立送1亿" fontFamily="微软雅黑" width="160" size="18" x="119" />
+	<e:Label id="txtYueRate" y="532" height="18" text="系统手续费减少到3%" fontFamily="微软雅黑" width="180" size="18" x="105"
+	         textColor="0x4ce51b" />
+	<e:Label id="txtZhongRate" y="532" height="18" text="系统手续费减少到1%" fontFamily="微软雅黑" width="180" size="18" x="366"
+	         textColor="0x4ce51b" />
+	<e:Label y="447" size="18" text="终身效果" fontFamily="微软雅黑" width="141" height="18" x="378" />
+	<e:Label id="txtZhongStr1" y="476" height="18" text="每日领取100万" fontFamily="微软雅黑" width="141" size="18" x="378" />
+	<e:Label id="txtZhongStr2" y="503" size="18" text="充值立送6亿" fontFamily="微软雅黑" width="156" height="18" x="378" />
+	<e:Image id="btnget" y="779" horizontalCenter="0.5"  source="yue.lingqu"/>
+	<e:Label id="txtYueTime" text="剩余30天" x="100.5" y="665" width="183" textAlign="center" />
+	<e:Label id="txtZhongTime" x="380" width="183" y="665" text="剩余30天" textAlign="center" />
+</e:Skin>

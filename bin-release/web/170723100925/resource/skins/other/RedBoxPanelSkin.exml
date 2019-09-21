@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedBoxPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="closeRect" width="640" height="1008" fillAlpha="0.6" />
+	<e:Group id="grpRobRed" x="0" y="0" height="1008">
+		<e:Image id="imgRedBox" source="redbox" y="123" scaleX="1" scaleY="1" width="432" height="543" horizontalCenter="0" />
+		<e:Label id="labTips" text="很遗憾您没有抢到红包！" y="762" bold="true" width="640" verticalAlign="justify" textAlign="center"
+		         textColor="0xffed00" size="40" x="0" border="false" borderColor="0x000000" stroke="2" />
+		<e:Label id="labName" text="土豪名字六个字儿" y="504" bold="true" width="640" verticalAlign="justify" textAlign="center"
+		         textColor="0xFFED00" size="35" x="0" border="false" borderColor="0x000000" />
+		<e:Label id="labInfo" text="发了5000万的红包" y="575" bold="true" width="640" verticalAlign="justify" textAlign="center"
+		         textColor="0xFFED00" size="35" x="0" border="false" borderColor="0x000000" />
+	</e:Group>
+	<e:Group id="grpSendRed" y="201.67" horizontalCenter="0" visible="false">
+		<e:Image source="c.bg" scale9Grid="65,138,396,491" anchorOffsetY="0" height="576.66" y="0" horizontalCenter="0" />
+		<e:Group y="184." x="218">
+			<e:Image source="redboxbg" x="0" y="0" />
+			<e:Image id="btnPlus" source="redboxplus" x="136" y="1" />
+			<e:Image id="btnReduce" source="redboxreduce" x="0" y="1" />
+			<e:Label id="labNum" text="10份" x="47" y="3" anchorOffsetX="0" width="86.5" textAlign="center" />
+		</e:Group>
+		<e:Group id="grpMoney0" x="148" y="271.01">
+			<e:Image id="imgSelect0" source="c.labbg0" x="0" y="0" />
+			<e:Label text="1000万" x="22.98" y="4.67" size="26" touchEnabled="false" />
+		</e:Group>
+		<e:Group y="271.01" id="grpMoney1" x="336">
+			<e:Image id="imgSelect1" source="c.labbg0" x="0" y="0" />
+			<e:Label text="2000万" x="22.98" y="4.67" size="26" touchEnabled="false" />
+		</e:Group>
+		<e:Group x="148" y="349.68000000000006" id="grpMoney2">
+			<e:Image id="imgSelect2" source="c.labbg0" x="0" y="0" />
+			<e:Label text="3000万" x="22.98" y="4.67" size="26" touchEnabled="false" />
+		</e:Group>
+		<e:Group x="336" y="347.01" id="grpMoney3">
+			<e:Image id="imgSelect3" source="c.labbg0" x="0" y="0" />
+			<e:Label text="5000万" x="22.98" y="4.67" size="26" touchEnabled="false" />
+		</e:Group>
+		<e:Image id="btnSure" source="ds.btnsure" y="442" x="185" />
+		<e:Image id="btnClose" source="c.btnclose" x="548" y="31.5" scaleX="1" scaleY="1" />
+		<e:Image x="235" y="23.83" source="redboxtitle" />
+	</e:Group>
+</e:Skin>

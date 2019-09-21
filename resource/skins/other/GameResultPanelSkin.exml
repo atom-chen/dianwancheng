@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="GameResultPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1008" fillAlpha="0.6" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" x="0" y="0" source="" />
+		<e:Image id="imgTishi" y="30" source="" horizontalCenter="0" />
+		<e:Image id="imgGold" x="97" y="114" source="" />
+		<e:Label id="txtYing" text="+99999万" x="297" y="117" anchorOffsetX="0" width="212" textAlign="left" />
+		<e:Label id="txtCaiJing" text="本局获得彩金: +99999万" x="101.5" y="181" anchorOffsetX="0" width="390" />
+		<e:Label id="txtTips" text="本局没有大赢家" y="304" anchorOffsetX="0" width="390" textAlign="center" horizontalCenter="0"
+		         textColor="0x000000" visible="false" />
+		<e:Group id="maxWin" x="31" y="272">
+			<e:Image x="321" y="27" anchorOffsetX="0" source="hall.goldbg" width="163" />
+			<e:Image source="gold" y="28.3" x="313" />
+			<e:Label id="txtVip" text="VIP 15" x="188" y="21" size="20" width="78" textAlign="center" touchEnabled="false"
+			         textColor="0x000000" bold="true" anchorOffsetX="0" />
+			<e:Label id="txtName" text="我想和你唱歌" x="160.5" y="51" size="20" touchEnabled="false" textColor="0x000000" bold="true"
+			         anchorOffsetX="0" width="144" textAlign="center" />
+			<e:Label id="txtMaxGold" text="99999万" x="338" y="31" anchorOffsetX="0" width="145" size="24" textAlign="center" />
+			<e:Image id="head" x="73" y="0" width="86" height="86" source="" />
+			<e:Label text="恭喜" x="0" y="32" textColor="0x000000" bold="true" />
+		</e:Group>
+	</e:Group>
+	<e:Image id="guang" source="" x="70" y="-45" />
+	<e:Image id="imgResult" y="187" horizontalCenter="0" />
+</e:Skin>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="DdzHeadItemSkin" width="103" height="168" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"
+        xmlns:ns1="*">
+	<e:Image source="ddz.txtbg" x="1" y="0"/>
+	<e:Image source="ddz.txtbg" x="1" y="24"/>
+	<e:Label id="txtName" text="名字六个字儿" x="1" y="3" size="16" width="100" scaleX="1" scaleY="1" anchorOffsetX="0" textAlign="center"/>
+	<e:Label id="txtGold" text="0" x="1" y="25" size="18" width="100" scaleX="1" scaleY="1" textColor="0xE8F400" anchorOffsetX="0" textAlign="center"/>
+	<e:Image source="ddz_0" x="6" y="124" width="32" height="40"/>
+	<e:Label id="txtPokerNum" x="39" y="130" bold="true" textColor="0xFF9302" scaleX="1" scaleY="1" width="57" text="X0" textAlign="center"/>
+	<e:Image id="head" width="80" height="80" y="44" source="http://wx.qlogo.cn/mmopen/g3MonUZtNHkdmzicIlibx6iaFqAc56vxLSUfpb6n5WKSYVY0ChQKkiaJSgQ1dZuTOgvLLrhJbERQQ4eMsv84eavHiaiceqxibJxCfHe/46" horizontalCenter="0.5"/>
+	<e:Image y="43" source="headbg" horizontalCenter="1"/>
+	<e:Image id="dizhu" source="ddz.dizhu" y="43" horizontalCenter="0"/>
+</e:Skin>

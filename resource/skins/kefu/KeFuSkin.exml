@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="KeFuSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="closeRect" width="640" height="1008" fillAlpha="0.6" />
+	<e:Image source="c.bg" horizontalCenter="0" verticalCenter="-130" scale9Grid="76,98,460,594" anchorOffsetY="0"
+	         height="490" />
+	<e:Image id="btnClose" source="c.btnclose" x="557" y="161.5" />
+	<e:Image y="151" horizontalCenter="0.5" source="kefu.title" />
+	<e:Label text="7*24小时美女客服在线为你服务，反馈问题还有机会获得奖品" y="284" anchorOffsetX="0" width="410.67" horizontalCenter="0" />
+	<e:Label id="txtWeixin" text="【客服微信】XXXXX" y="424.67" anchorOffsetX="0" width="410.67" horizontalCenter="-4.5"
+	         textColor="0xffff00" />
+	<e:Image id="btnSure" source="c.btnsure" x="192.34" y="500.01" />
+</e:Skin>

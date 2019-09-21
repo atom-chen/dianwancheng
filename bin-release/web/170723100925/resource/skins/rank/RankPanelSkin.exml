@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="RankPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="closeRect" height="1008" width="640" x="0" y="0" fillAlpha="0.6" anchorOffsetY="0"/>
+	<e:Image source="c.bg" horizontalCenter="0" verticalCenter="20"/>
+	<e:Image id="btnClose" source="c.btnclose" x="560.33" y="160"/>
+	<e:Image width="547.33" height="599.67" x="48" y="286" source="rank.bg" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Scroller width="523.33" height="500" y="293" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:Group id="itemGroup" anchorOffsetX="0">
+		</e:Group>
+	</e:Scroller>
+	<e:Image source="rank.title" y="149.5" horizontalCenter="-7.5"/>
+	<e:Image y="822.34" anchorOffsetX="3" anchorOffsetY="0" source="rank.buttom" x="52.33"/>
+	<e:Image id="btnCaifu" source="rank.btnCaifu" y="226" horizontalCenter="0"/>
+	<e:Image id="btnShu" x="427" y="236" source="rank.btnShuan"/>
+	<e:Image id="btnYing" x="77" y="236" source="rank.btnYingan"/>
+	<e:Image source="rank.txtshuaxin" y="834" horizontalCenter="0"/>
+</e:Skin>

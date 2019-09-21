@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EmailPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect id="closeRect" height="1008" width="640" x="0" y="0" fillAlpha="0.6" />
+	<e:Image horizontalCenter="0" verticalCenter="20" source="c.bg" />
+	<e:Image id="btnClose" source="c.btnclose" x="557" y="161.5" />
+	<e:Scroller width="546" height="616" y="235" anchorOffsetY="0" horizontalCenter="0" anchorOffsetX="0">
+		<e:Group id="itemGroup"></e:Group>
+	</e:Scroller>
+	<e:Image source="email.title" x="273" y="151" />
+	<e:Label id="labTips" text="暂无邮件" y="550" horizontalCenter="0" />
+</e:Skin>

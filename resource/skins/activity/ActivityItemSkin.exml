@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ActivityItemSkin" width="558" height="53" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Image id="bg" right="0" source="hd.noselect"/>
+	<e:Image id="icon" source="hd.hot" x="-1" y="11"/>
+	<e:Label id="txtStr" text="游戏内容更新" x="81" anchorOffsetX="0" width="457" size="24" verticalCenter="0"/>
+</e:Skin>

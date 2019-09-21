@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DashangTipSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1008" x="0" y="0" fillAlpha="0" locked="true"/>
+	<e:Image source="c.bg2" y="218" anchorOffsetY="0" horizontalCenter="0" height="548" scale9Grid="65,124,396,473"/>
+	<e:Image id="btnSure" y="640" horizontalCenter="0" source="hd.btnrue"/>
+	<e:Label text="你被玩家" y="304" anchorOffsetX="0" width="336" bold="true" size="50" textAlign="center" horizontalCenter="0"/>
+	<e:Label text="打赏了" y="467" anchorOffsetX="0" width="336" bold="true" size="50" horizontalCenter="0" textAlign="center" x="162"/>
+	<e:Label id="labName" text="玩家名字六个字" y="389" anchorOffsetX="0" width="443" bold="true" size="60" horizontalCenter="1.5" textAlign="center" x="162" textColor="0xefbd43"/>
+	<e:Label id="labMoney" text="1000000万" y="537" anchorOffsetX="0" width="443" bold="true" size="50" horizontalCenter="2.5" textAlign="center" x="172" textColor="0xEFBD43"/>
+</e:Skin>

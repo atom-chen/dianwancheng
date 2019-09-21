@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>版本由八方资源网免费提供：www.8fzylt.com </title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="full-screen" content="true" />
+	<meta name="screen-orientation" content="portrait" />
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+	<style>
+	    #div-a{
+text-align:center;
+height:60px;
+line-height:60px;
+position: absolute;
+width:400px;
+height:200px;
+left:50%;
+top:40%; 
+margin-left:-200px;
+margin-top:-100px;
+}
+        html, body {
+            -ms-touch-action: none;
+            background: #000000;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+<!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件-->
+<!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<!--modules_files_end-->
+
+<!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+<!--other_libs_files_start-->
+<script egret="lib" src="libs/pomelo/PomeloClient.js" src-release="libs/pomelo/PomeloClient.js"></script>
+<!--other_libs_files_end-->
+
+<!--这个标签会被替换为项目中所有的 javascript 文件-->
+<!--game_files_start-->
+	<script egret="game" src="bin-debug/core/utils/Dictionary.js"></script>
+	<script egret="game" src="bin-debug/view/activity/ActivityPanel.js"></script>
+	<script egret="game" src="bin-debug/core/data/EventData.js"></script>
+	<script egret="game" src="bin-debug/core/data/GlobalData.js"></script>
+	<script egret="game" src="bin-debug/core/data/MessageData.js"></script>
+	<script egret="game" src="bin-debug/core/data/PlatformData.js"></script>
+	<script egret="game" src="bin-debug/core/data/PropertiesAnalyzer.js"></script>
+	<script egret="game" src="bin-debug/core/data/Protocol.js"></script>
+	<script egret="game" src="bin-debug/core/effect/NumEffect.js"></script>
+	<script egret="game" src="bin-debug/core/fany/enum/MarketingType.js"></script>
+	<script egret="game" src="bin-debug/core/fany/enum/OnNotice.js"></script>
+	<script egret="game" src="bin-debug/core/fany/enum/TemplateType.js"></script>
+	<script egret="game" src="bin-debug/core/fany/GameData.js"></script>
+	<script egret="game" src="bin-debug/core/fany/interfaces/IDispose.js"></script>
+	<script egret="game" src="bin-debug/core/fany/listen/GameListen.js"></script>
+	<script egret="game" src="bin-debug/core/fany/model/UserInfo.js"></script>
+	<script egret="game" src="bin-debug/core/fany/Net.js"></script>
+	<script egret="game" src="bin-debug/core/fany/ui/BasePanel.js"></script>
+	<script egret="game" src="bin-debug/core/fany/ui/ButtonMusic.js"></script>
+	<script egret="game" src="bin-debug/core/fany/ui/ScrollPanel.js"></script>
+	<script egret="game" src="bin-debug/core/manage/ChatManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/DataManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/EnterFrameManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/EventManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/GameManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/MusicManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/NoticeManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/ObjManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/PageManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/PanelManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/PayManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/PokerManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/PopUpManager.js"></script>
+	<script egret="game" src="bin-debug/core/manage/QuickManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/ResManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/ResourceManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/SkillManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/SocketManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/TimerManage.js"></script>
+	<script egret="game" src="bin-debug/core/manage/TipsManage.js"></script>
+	<script egret="game" src="bin-debug/core/net/Network.js"></script>
+	<script egret="game" src="bin-debug/core/other/BaseSingle.js"></script>
+	<script egret="game" src="bin-debug/core/other/ObjectPool.js"></script>
+	<script egret="game" src="bin-debug/core/other/TimerManager.js"></script>
+	<script egret="game" src="bin-debug/core/utils/DateUtils.js"></script>
+	<script egret="game" src="bin-debug/core/config/GameConfig.js"></script>
+	<script egret="game" src="bin-debug/core/utils/EffectUtils.js"></script>
+	<script egret="game" src="bin-debug/core/utils/Global.js"></script>
+	<script egret="game" src="bin-debug/core/utils/md5.js"></script>
+	<script egret="game" src="bin-debug/core/utils/NativeApi.js"></script>
+	<script egret="game" src="bin-debug/core/utils/RandomUtils.js"></script>
+	<script egret="game" src="bin-debug/core/utils/RegUtils.js"></script>
+	<script egret="game" src="bin-debug/core/utils/UtilsClass/BitmapBlink.js"></script>
+	<script egret="game" src="bin-debug/core/utils/UtilsClass/LEvent.js"></script>
+	<script egret="game" src="bin-debug/core/utils/UtilsClass/LListener.js"></script>
+	<script egret="game" src="bin-debug/core/utils/UtilsClass/TipsUtils.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/other/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/other/JSSDK.js"></script>
+	<script egret="game" src="bin-debug/other/LoadingUI.js"></script>
+	<script egret="game" src="bin-debug/other/ThemeAdapter.js"></script>
+	<script egret="game" src="bin-debug/view/activity/ActivityItemPanel.js"></script>
+	<script egret="game" src="bin-debug/core/data/ErrorMessage.js"></script>
+	<script egret="game" src="bin-debug/view/award/AwardItem.js"></script>
+	<script egret="game" src="bin-debug/view/award/AwardPanel.js"></script>
+	<script egret="game" src="bin-debug/view/blackjack/BlackJackItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/blackjack/BlackJackPanel.js"></script>
+	<script egret="game" src="bin-debug/view/chat/ChatItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/chat/ChatPanel.js"></script>
+	<script egret="game" src="bin-debug/view/clown/ChooseClownPanel.js"></script>
+	<script egret="game" src="bin-debug/view/clown/ClownHelpPanel.js"></script>
+	<script egret="game" src="bin-debug/view/clown/ClownPanel.js"></script>
+	<script egret="game" src="bin-debug/view/clown/ClownRankItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/clown/ClownRankPanel.js"></script>
+	<script egret="game" src="bin-debug/view/daShang/DaShangItem.js"></script>
+	<script egret="game" src="bin-debug/view/daShang/DaShangPanel.js"></script>
+	<script egret="game" src="bin-debug/view/daShang/DaShangTips.js"></script>
+	<script egret="game" src="bin-debug/view/ddz/DdzHeadItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/ddz/DdzPanel.js"></script>
+	<script egret="game" src="bin-debug/view/ddz/PokerPanel.js"></script>
+	<script egret="game" src="bin-debug/view/email/EmailItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/email/EmailPanel.js"></script>
+	<script egret="game" src="bin-debug/view/freeCoin/FreeCoinItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/freeCoin/FreeCoinPanel.js"></script>
+	<script egret="game" src="bin-debug/view/fruit/FruitInfo.js"></script>
+	<script egret="game" src="bin-debug/view/fruit/FruitPanel.js"></script>
+	<script egret="game" src="bin-debug/view/fruit/FruitUtils.js"></script>
+	<script egret="game" src="bin-debug/view/HallPanel.js"></script>
+	<script egret="game" src="bin-debug/view/jingcai/JingCaiItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/jingcai/JingCaiPanel.js"></script>
+	<script egret="game" src="bin-debug/view/jinhua/JinHuaUtil.js"></script>
+	<script egret="game" src="bin-debug/view/jinhua/ZhaJinHuaPanel.js"></script>
+	<script egret="game" src="bin-debug/view/jinsha/JinShaInfo.js"></script>
+	<script egret="game" src="bin-debug/view/jinsha/JinShaPanel.js"></script>
+	<script egret="game" src="bin-debug/view/jinsha/JinShaUtils.js"></script>
+	<script egret="game" src="bin-debug/view/jinsha/ZhuangListItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/kefu/KeFuPanel.js"></script>
+	<script egret="game" src="bin-debug/view/login/LoginPanel.js"></script>
+	<script egret="game" src="bin-debug/view/lottery/LotteryPanel.js"></script>
+	<script egret="game" src="bin-debug/view/moneyTree/MoneyTreePanel.js"></script>
+	<script egret="game" src="bin-debug/view/niuniu/NiuNiuPanel.js"></script>
+	<script egret="game" src="bin-debug/view/niuniu/NiuNiuUtil.js"></script>
+	<script egret="game" src="bin-debug/view/other/GameResultPanel.js"></script>
+	<script egret="game" src="bin-debug/view/other/NoticePanel.js"></script>
+	<script egret="game" src="bin-debug/view/other/ResLoading.js"></script>
+	<script egret="game" src="bin-debug/view/other/ResLoading2.js"></script>
+	<script egret="game" src="bin-debug/view/other/ServerErrorPanel.js"></script>
+	<script egret="game" src="bin-debug/view/other/TipsShowPanel.js"></script>
+	<script egret="game" src="bin-debug/view/pk/PkPanel.js"></script>
+	<script egret="game" src="bin-debug/view/rank/RankItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/rank/RankPanel.js"></script>
+	<script egret="game" src="bin-debug/view/redbox/RedBoxPanel.js"></script>
+	<script egret="game" src="bin-debug/view/set/SetPanel.js"></script>
+	<script egret="game" src="bin-debug/view/shop/ShopItemPanel.js"></script>
+	<script egret="game" src="bin-debug/view/shop/ShopPanel.js"></script>
+	<script egret="game" src="bin-debug/view/sign/SignPanel.js"></script>
+	<script egret="game" src="bin-debug/view/task/TaskItem.js"></script>
+	<script egret="game" src="bin-debug/view/task/TaskPanel.js"></script>
+	<script egret="game" src="bin-debug/view/tehui/TeHuiPanel.js"></script>
+	<script egret="game" src="bin-debug/view/user/UserPanel.js"></script>
+	<script egret="game" src="bin-debug/view/vip/VipItem.js"></script>
+	<script egret="game" src="bin-debug/view/vip/VipPanel.js"></script>
+	<script egret="game" src="bin-debug/view/yaoqing/YaoQingPanel.js"></script>
+	<script egret="game" src="bin-debug/view/yue/YuePanel.js"></script>
+	<!--game_files_end-->
+</head>
+
+<body>
+	<div id="div-a">
+		<font color="#ffffff" id="fonttext">正在加载...<br>抵制不良游戏， 拒绝盗版游戏。
+			<br> 注意自我保护， 谨防受骗上当。
+			<br> 适度游戏益脑， 沉迷游戏伤身。
+			<br> 合理安排时间， 享受健康生活。
+		</font>
+	</div>
+	<div style="margin: auto;width: 100%;height: 100%;" class="egret-player" id="gameDiv" data-entry-class="Main" data-orientation="auto" data-scale-mode="exactFit" data-resolution-mode="retina"
+data-frame-rate="30" data-content-width="640" data-content-height="1008" data-show-paint-rect="false" data-multi-fingered="2"
+data-show-fps="false" data-show-log="false" data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+</div>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="https://og6593g2z.qnssl.com/fundebug.0.1.6.min.js" apikey="f4d49932bed61f8af86a4e58449569d16a6b8228c988bae3d3ee46743bf55cb0"></script>
+<script src="resource/js/jquery-1.8.0.min.js"></script>
+<script src="resource/js/my.js"></script>
+
+</body>
+
+</html>

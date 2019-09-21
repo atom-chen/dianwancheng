@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClownHelpSkin" width="600" height="800" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15c1500f12b" scale9Grid="25,26,71,69" anchorOffsetX="0" horizontalCenter="2" width="594"
+	          anchorOffsetY="0" height="728" />
+	<e:Image source="clown_bht_back" y="59" horizontalCenter="0" scale9Grid="28,28,69,68" width="600" height="750" />
+	<e:Group width="279" height="71" x="24" y="222" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Label text="X50" x="209" y="12" anchorOffsetX="0" width="69" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="center" textColor="0x4badcc" />
+		<e:Image source="clown_icon_7" x="12" y="11" />
+		<e:Image source="clown_icon_7" x="80" y="11" />
+		<e:Image source="clown_icon_7" x="148" y="11" />
+	</e:Group>
+	<e:Group width="279" height="71" x="308" y="222" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Label text="X20" x="204" y="12.5" anchorOffsetX="0" width="69" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="center" textColor="0x4badcc" />
+		<e:Image source="clown_icon_6" x="11" y="9" />
+		<e:Image source="clown_icon_6" x="80.5" y="8" />
+		<e:Image source="clown_icon_6" x="148" y="9.5" />
+	</e:Group>
+	<e:Group width="279" height="71" x="24" y="308" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Label text="X10" x="209" y="12" anchorOffsetX="0" width="69" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="center" textColor="0x4BADCC" />
+		<e:Image source="clown_icon_7" x="12" y="11" />
+		<e:Image source="clown_icon_7" x="80" y="11" />
+		<e:Image source="clown_icon_7" x="148" y="11" />
+	</e:Group>
+	<e:Group width="279" height="71" x="308" y="308" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Label text="X4" x="195" y="12.5" anchorOffsetX="0" width="69" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="right" textColor="0x4BADCC" />
+		<e:Image source="clown_icon_6" x="11" y="9" />
+		<e:Image source="clown_icon_6" x="80.5" y="8" />
+		<e:Image source="clown_icon_6" x="148" y="9.5" />
+	</e:Group>
+	<e:Group width="279" height="71" x="24" y="392" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Label text="X3" x="198" y="10" anchorOffsetX="0" width="69" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="right" textColor="0x4badcc" />
+		<e:Image source="clown_icon_3" x="12" y="11" />
+		<e:Image source="clown_icon_3" x="80.5" y="10" />
+		<e:Image source="clown_icon_3" x="148.5" y="10" />
+	</e:Group>
+	<e:Group width="279" height="71" x="308" y="392" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Label text="X2" x="208" y="11" anchorOffsetX="0" width="69" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="center" textColor="0x4badcc" />
+		<e:Image source="clown_icon_2" x="12.5" y="12" />
+		<e:Image source="clown_icon_2" x="80.5" y="12" />
+		<e:Image source="clown_icon_2" x="150.5" y="11.5" />
+	</e:Group>
+	<e:Group width="279" height="71" x="308" y="137" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Label text="X500" x="192" y="12" anchorOffsetX="0" width="83" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="center" textColor="0x4badcc" />
+		<e:Image source="clown_icon_8" x="12" y="10" />
+		<e:Image source="clown_icon_8" x="80" y="10" />
+		<e:Image source="clown_icon_8" x="148" y="10" />
+	</e:Group>
+	<e:Group width="279" height="71" x="24" y="137" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="clown_help_label" horizontalCenter="0" verticalCenter="0" />
+		<e:Image x="12" y="13.5" source="clown_icon1" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" />
+		<e:Image source="clown_icon1" x="66" y="12.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" />
+		<e:Image source="clown_icon1" x="118.5" y="12.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" />
+		<e:Image x="295.5" y="12.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon2" />
+		<e:Image x="349.5" y="12.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon2" />
+		<e:Image x="402" y="12.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon2" />
+		<e:Image x="12" y="98" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon3" />
+		<e:Image x="66" y="98" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon3" />
+		<e:Image x="118.5" y="98" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon3" />
+		<e:Image x="295.5" y="98.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon4" />
+		<e:Image x="349.5" y="98.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon4" />
+		<e:Image x="402" y="98.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon4" />
+		<e:Image x="12" y="184" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon5" />
+		<e:Image x="66.5" y="184" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon5" />
+		<e:Image x="118" y="184" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon5" />
+		<e:Image x="295.5" y="184" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon6" />
+		<e:Image x="349.5" y="184" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon6" />
+		<e:Image x="402" y="184" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon6" />
+		<e:Image x="10.5" y="268.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon7" />
+		<e:Image x="62.5" y="268.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon7" />
+		<e:Image x="116" y="268.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon7" />
+		<e:Image x="295.5" y="268" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon8" />
+		<e:Image x="349.5" y="268" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon8" />
+		<e:Image x="400" y="269" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon8" />
+		<e:Group width="279" height="71" x="2" y="334" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Image source="clown_help_label" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+			<e:Label text="X1" x="210" y="11" anchorOffsetX="0" width="69" anchorOffsetY="0" height="49" verticalAlign="middle"
+			         textAlign="center" textColor="0x4BADCC" />
+			<e:Image source="clown_icon_2" x="12.5" y="12" />
+			<e:Image source="clown_icon_2" x="80.5" y="12" />
+			<e:Image source="clown_icon_2" x="150.5" y="11.5" />
+		</e:Group>
+		<e:Image x="12" y="348" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon9" />
+		<e:Image x="66" y="348" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon9" />
+		<e:Image x="116.5" y="348" anchorOffsetX="0" width="45" anchorOffsetY="0" height="46" source="clown_icon9" />
+		<e:Image source="clown_icon_9" x="80" y="9" />
+		<e:Image source="clown_icon_9" x="148" y="9" />
+		<e:Label text="X1000" x="176" y="12" anchorOffsetX="0" width="99" anchorOffsetY="0" height="49" verticalAlign="middle"
+		         textAlign="center" textColor="0x4badcc" />
+	</e:Group>
+	<e:Image id="btnClose" source="clown_close" x="545" y="55" />
+	<e:Image source="clown_help_top" y="1" horizontalCenter="0" />
+	<e:Label text="4星和8星都有几率爆出底分*2000倍的奖励" y="610" horizontalCenter="1" anchorOffsetX="0" width="308" />
+</e:Skin>

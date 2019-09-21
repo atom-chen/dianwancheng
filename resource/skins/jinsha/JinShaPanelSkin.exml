@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JinShaPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image x="0" bottom="0" source="jinsha.bgg" />
+	<e:Group id="maskhead" x="17" y="8">
+		<e:Image id="head" height="84" width="84" x="0" y="0" />
+		<e:Image x="0.5" y="0" source="headbg" />
+	</e:Group>
+	<e:Image id="btnVip" source="vipbg" x="31" y="72" />
+	<e:Label id="txtVip" text="VIP.15" x="35" y="77" size="16" width="50" textAlign="center" touchEnabled="false" />
+	<e:Image id="zhiqian5" source="" y="562" x="272" />
+	<e:Image id="zhiqian6" source="" y="562" x="225" />
+	<e:Image id="zhiqian7" source="" y="562" x="178" />
+	<e:Image id="zhiqian8" source="" y="562" x="130" />
+	<e:Image id="zhiqian9" source="" y="562" x="82" />
+	<e:Image id="zhiqian0" source="" y="562" x="509" />
+	<e:Image id="zhiqian1" source="" y="562" x="462" />
+	<e:Image id="zhiqian2" source="" y="562" x="414" />
+	<e:Image id="zhiqian3" source="" y="562" x="366" />
+	<e:Image id="zhiqian4" source="" y="562" x="319" />
+	<e:Image id="z14" source="jinsha.2b" x="558" y="622" />
+	<e:Image id="z8" source="jinsha.2b" y="111" x="560" />
+	<e:Image id="z22" source="jinsha.2b" y="622" x="16" />
+	<e:Image id="z0" source="jinsha.2b" y="111" x="15" />
+	<e:Image id="z15" source="jinsha.12b" x="491" y="622" />
+	<e:Image id="z16" source="jinsha.12b" y="622" x="424" />
+	<e:Image id="z17" source="jinsha.12b" y="622" x="359" />
+	<e:Image id="z18" source="jinsha.3b" y="602" x="281" />
+	<e:Image id="z4" source="jinsha.3b" y="103" horizontalCenter="0" />
+	<e:Image id="z25" source="jinsha.3b" y="354" horizontalCenter="-268" x="10" />
+	<e:Image id="z11" source="jinsha.3b" y="354" horizontalCenter="268" x="20" />
+	<e:Image id="z19" source="jinsha.5b" x="203" y="622" />
+	<e:Image id="z20" source="jinsha.5b" y="622" x="138" />
+	<e:Image id="z21" source="jinsha.5b" y="622" x="70" />
+	<e:Image id="z23" source="jinsha.6b" x="6" y="540" />
+	<e:Image id="z24" source="jinsha.6b" y="456" x="6" />
+	<e:Image id="z26" source="jinsha.7b" x="16" y="277" />
+	<e:Image id="z27" source="jinsha.7b" y="195" x="16" />
+	<e:Image id="z1" source="jinsha.8b" x="80" y="111" />
+	<e:Image id="z2" source="jinsha.8b" y="111" x="146" />
+	<e:Image id="z3" source="jinsha.8b" y="111" x="213" />
+	<e:Image id="z5" source="jinsha.9b" x="359" y="111" />
+	<e:Image id="z6" source="jinsha.9b" y="111" x="426" />
+	<e:Image id="z7" source="jinsha.9b" y="111" x="493" />
+	<e:Image id="z9" source="jinsha.10b" x="559" y="196" />
+	<e:Image id="z10" source="jinsha.10b" y="277" x="559" />
+	<e:Image id="z12" source="jinsha.11b" x="558" y="456" />
+	<e:Image id="z13" source="jinsha.11b" y="539" x="558" />
+	<e:Label id="txtName" y="22" height="33" text="名字六个字啊" fontFamily="微软雅黑" textAlign="left" width="190" size="28" x="113" />
+	<e:BitmapLabel id="txtGold" y="62" text="1000000万" font="goldtext_fnt" x="149" />
+	<e:BitmapLabel id="txtCaijin" y="235" text="0" x="267" font="goldtext_fnt" />
+	<e:Image id="btnClose" source="jinsha.btnQuit" x="509" y="33" />
+	<e:Image source="jinsha.img2" y="681" horizontalCenter="0" />
+	<e:Image id="btnQiehuan" x="515" y="822" source="jinsha.qiehuanb" />
+	<e:Image id="imgfa" x="12" y="810" source="jinsha.imgfa" />
+	<e:BitmapLabel id="txtTime" x="296" y="713" font="daojishitext_fnt" text="10" />
+	<e:Label id="txtTotal1" text="0" x="134" y="767" size="18" fontFamily="微软雅黑" width="90" textAlign="right"
+	         textColor="0xE938F2" />
+	<e:Label id="txtCurrent1" y="789" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="90"
+	         size="18" x="134" />
+	<e:Label id="txtTotal2" y="767" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="90" size="18"
+	         x="226" />
+	<e:Label id="txtCurrent2" y="789" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="90"
+	         size="18" x="226" />
+	<e:Label id="txtTotal3" y="765" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="90" size="18"
+	         x="318" />
+	<e:Label id="txtCurrent3" y="789" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="90"
+	         size="18" x="318" />
+	<e:Label id="txtTotal4" y="767" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="90" size="18"
+	         x="412" />
+	<e:Label id="txtCurrent4" y="789" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="90"
+	         size="18" x="412" />
+	<e:Label id="txtDanzhu" y="857" text="单注:10000" fontFamily="微软雅黑" textAlign="center" width="115" size="18" x="511"
+	         textColor="0xFFFF00" />
+	<e:Label id="txtTotal5" y="889" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="-1" />
+	<e:Label id="txtCurrent5" y="911" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="-1" />
+	<e:Label id="txtTotal6" y="890" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="79" />
+	<e:Label id="txtCurrent6" y="910" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="79" anchorOffsetY="0" height="21" verticalAlign="middle" />
+	<e:Label id="txtTotal7" y="889" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="159" />
+	<e:Label id="txtCurrent7" y="910" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="159" />
+	<e:Label id="txtTotal8" y="889" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="238" />
+	<e:Label id="txtCurrent8" y="911" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="238" />
+	<e:Label id="txtTotal9" y="889" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="316" />
+	<e:Label id="txtCurrent9" y="912" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="316" />
+	<e:Label id="txtTotal10" y="889" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="396" />
+	<e:Label id="txtCurrent10" y="911" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="396" />
+	<e:Label id="txtTotal11" y="889" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="475" />
+	<e:Label id="txtCurrent11" y="911" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="475" />
+	<e:Label id="txtTotal12" y="890" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80" size="18"
+	         x="555" />
+	<e:Label id="txtCurrent12" y="911" textColor="0xE938F2" text="0" fontFamily="微软雅黑" textAlign="right" width="80"
+	         size="18" x="555" />
+	<e:Image id="zhu1" x="135" y="800" source="jinsha.l1" />
+	<e:Image id="zhu2" source="jinsha.l2" x="230" y="799" />
+	<e:Image id="zhu3" source="jinsha.l3" x="322" y="795" />
+	<e:Image id="zhu4" source="jinsha.l4" x="415" y="809" />
+	<e:Image id="zhu5" source="jinsha.l5" x="4" y="928" />
+	<e:Image id="zhu6" source="jinsha.l6" x="84" y="928" />
+	<e:Image id="zhu7" source="jinsha.l7" x="165" y="927" />
+	<e:Image id="zhu8" source="jinsha.l8" x="243" y="931" />
+	<e:Image id="zhu9" source="jinsha.l9" x="317" y="925" />
+	<e:Image id="zhu10" source="jinsha.l10" x="400" y="932" />
+	<e:Image id="zhu11" source="jinsha.l11" x="476" y="928" />
+	<e:Image id="zhu12" source="jinsha.l12" x="558" y="928" />
+	<e:Image id="zhuangbg" source="jinsha.zhuangbg" x="113" y="278" />
+	<e:Image id="btnChong" y="60" x="357" source="btnChong" />
+	<e:Image id="btnShang" source="jinsha.btnShang" x="417" y="299" />
+	<e:BitmapLabel id="txtGoldZhuang" y="330" text="10000000万" font="goldtext_fnt" x="223" />
+	<e:BitmapLabel id="txtWinGold" y="723" text="0" font="goldtext_fnt" x="106" />
+	<e:BitmapLabel id="txtTotalGold" x="376" y="722" text="10000000" font="goldtext_fnt" />
+	<e:Label id="txtNameZhuang" y="299" height="28" text="名字六个字啊" fontFamily="微软雅黑" textAlign="left" width="186" size="22"
+	         x="203" anchorOffsetX="0" />
+	<e:Image source="gold" y="330" x="200" />
+	<e:Image id="headzhuang" width="74" y="290" height="74" x="117" />
+	<e:Image id="maskheadzhuang" source="headbg" y="285" x="113" />
+	<e:Image id="txtFenPanNum" source="jinsha.num1" y="305" horizontalCenter="0" visible="false" />
+	<e:Label id="txtShengYuNum" text="剩余局数:10" x="416" y="335" size="16" width="106" textAlign="center" />
+	<e:Label id="txtPaizhuang" text="排庄" x="386" y="296" size="16" textColor="0x00e500" width="32" visible="false" />
+	<e:Label id="txtPaizhuangNum" text="12" x="386" y="313" size="16" textColor="0x00E500" width="32" textAlign="center"
+	         visible="false" />
+	<e:Scroller id="zhuangScroll" width="422" height="200" y="369" anchorOffsetX="0" horizontalCenter="0" visible="false">
+		<e:Group id="zhuangGroup">
+			<e:Rect id="bgg" width="400" y="24" height="40" fillAlpha="0.4" horizontalCenter="0" visible="false" />
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="baozhuang" source="jinsha.baozhuang" horizontalCenter="0" verticalCenter="0" visible="false" />
+	<e:Image id="btnBao" source="jinsha.baoxianxiang" x="13" y="833" visible="false" />
+	<e:Image id="btnChongfu" x="510" y="771" source="jinsha.reyazhub" />
+	<e:Image id="xiala" x="468" y="356" source="jinsha.xiala" />
+	<e:Image id="btnVip0" source="vipbg" x="125" y="350" />
+	<e:Label id="txtZhuangVip" text="VIP 15" x="129" y="355" size="16" width="50" textAlign="center" touchEnabled="false" />
+	<e:Group id="baocaijin" y="425" horizontalCenter="0" visible="false">
+		<e:Image source="jinsha.baocaijin" x="0" y="0" />
+		<e:Rect height="30" width="330" y="-10" horizontalCenter="0" strokeWeight="1" />
+		<e:Label id="txtCaiJin2" y="-8" horizontalCenter="0" bold="true" textColor="0xFFFF00" />
+	</e:Group>
+	<e:Image id="guang" source="jinsha.guang" x="62" y="247" visible="false" />
+	<e:Image id="imgend" source="jinsha.12a" y="453" x="279" visible="false" />
+	<e:Image source="gold" x="111.5" y="60" width="30" height="30" />
+	<e:Image id="helptips" source="hall.helptips" y="688" horizontalCenter="0" />
+</e:Skin>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardItemSkin" width="540" height="125" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image anchorOffsetX="0" source="c.itembg" verticalCenter="0" />
+	<e:Group id="grpExchange" height="125" width="540" visible="false">
+		<e:Image id="btnTouch" x="398" y="52" source="award.btnget" />
+		<e:Image x="423" y="20" scaleX="0.7" scaleY="0.7" width="101" height="37" source="award.quanbg" />
+		<e:Label id="labTitle" text="白银宝箱" x="136" y="31" bold="true" anchorOffsetX="0" width="227" size="20"
+		         textColor="0xffde00" />
+		<e:Label id="labInfo" text="赠送2亿游戏币" x="136" y="66" anchorOffsetX="0" width="199" textColor="0xFFFFFF" size="18"
+		         bold="true" />
+		<e:Label id="labGold" text="12345" x="440.33" y="26.5" textColor="0xFFF900" bold="true" anchorOffsetX="0"
+		         width="56.34" size="14" textAlign="left" />
+		<e:Image id="imgGift" x="21" source="award.gift0" y="24" />
+	</e:Group>
+	<e:Group id="grpRecord" height="111" width="538" x="0" y="0" anchorOffsetX="0" visible="false">
+		<e:Label id="labRecordTime" text="2016-11-11 12:12:12" x="19" y="28" width="404.67" size="20" anchorOffsetX="0" />
+		<e:Label id="labRecordInfo" x="19" y="64" text="vip玩家谁谁兑换了什么东西" width="401" anchorOffsetX="0" size="20" />
+	</e:Group>
+</e:Skin>

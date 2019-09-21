@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoneyTreeSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="closeRect" width="640" height="1008" x="0" y="0" fillAlpha="0.6" />
+	<e:Image horizontalCenter="0" verticalCenter="20" source="c.bg" />
+	<e:Image id="btnClose" source="c.btnclose" x="559" y="161.5" />
+	<e:Image x="254" y="151" source="mt.title" />
+	<e:Image id="btnCharge" y="765" source="mt.btncharge" horizontalCenter="0"  visible="false"/>
+	<e:Image x="87.21" y="275.96" source="mt.tree" />
+	<e:Label id="labLevel" text="" x="243" y="539.66" size="24" bold="true" textAlign="center" width="154"
+	         textColor="0xffe100" italic="true" height="24" />
+	<e:Image id="btnGetCoin" y="638" horizontalCenter="0.5" source="mt.btnget"  visible="false"/>
+	<e:Group id="grpNoTips" x="153" y="611.67" visible="false">
+		<e:Label text="您还没有摇钱树" y="0" size="26" bold="true" textAlign="center" width="259" anchorOffsetX="0" x="38"
+		         height="26" />
+		<e:Label text="充值任意金额立即拥有" y="40" size="26" bold="true" textAlign="center" width="335" anchorOffsetX="0" x="0"
+		         height="26" />
+	</e:Group>
+	<e:Group id="grpLoding" y="577" horizontalCenter="0" visible="false">
+		<e:Image x="0" y="7" source="mt.loadingbg" />
+		<e:Image id="imgload" x="4" y="30.5" anchorOffsetY="21" source="mt.loadingbar" scale9Grid="13,4,283,17" />
+		<e:Label id="labload" text="999999/99999" y="10" size="26" horizontalCenter="0" bold="true" border="false" stroke="1"
+		         textAlign="center" anchorOffsetX="0" width="272.33" />
+	</e:Group>
+	<e:Image id="btnUp" y="765" source="mt.btnup" width="246" height="75" horizontalCenter="0"  visible="false"/>
+	<e:Group id="grpUpTip" x="0" y="724" anchorOffsetX="0" width="640" visible="false">
+		<e:Label id="labUpInfo" text="充值即可升级您的摇钱树！" anchorOffsetX="0" width="327" size="24" verticalCenter="0" bold="true"
+		         textAlign="center" horizontalCenter="0" textColor="0xffe100" height="24" />
+	</e:Group>
+	<e:Image source="mt.info" x="356" y="307" />
+</e:Skin>

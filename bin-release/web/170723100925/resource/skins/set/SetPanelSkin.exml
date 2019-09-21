@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="closeRect" width="640" height="1008" x="0" y="0" fillAlpha="0.6" anchorOffsetY="0" />
+	<e:Image horizontalCenter="0" verticalCenter="20" source="c.bg" />
+	<e:Image id="btnClose" source="c.btnclose" x="558" y="164" />
+	<e:Image y="154" horizontalCenter="-1" source="set.title" />
+	<e:Image source="set.labelVoice" x="92" y="294" />
+	<e:Image id="btnCloseVoice" source="set.close" x="360" y="293" />
+	<e:Image id="btnOpenVoice" source="set.open" x="360" y="293" />
+	<e:Image source="set.labeAdvice" x="92" y="433" />
+	<e:Image source="set.dialog" y="498" scale9Grid="53,9,320,54" anchorOffsetX="0" width="470" anchorOffsetY="0"
+	         horizontalCenter="3" height="293" />
+	<e:Image id="btnSubmit" source="set.submit" x="394" y="814" anchorOffsetX="0" width="123" anchorOffsetY="0"
+	         height="39.23" />
+	<e:EditableText id="labelAdvice" width="393" height="267" x="122" y="511" anchorOffsetX="0" anchorOffsetY="0"
+	                textColor="0x000000" multiline="true" lineSpacing="8" maxChars="50"
+	                prompt="玩家可以提建议和提BUG，成功采纳的玩家，系统会发放50万金币奖励给玩家。" />
+	<e:Label id="txtVerson" text="v:201703020502" x="57.5" y="866.62" anchorOffsetX="0" width="175" size="16"
+	         textColor="0x827c7c" />
+</e:Skin>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="JingCaiPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Rect height="1008" width="640" x="0" y="0" fillAlpha="0" />
+	<e:Image horizontalCenter="0" verticalCenter="0" source="c.bg" />
+	<e:Image x="234" y="178.5" source="jingcai.title" />
+	<e:Image source="c.btnclose" y="167" x="515" id="btnClose" />
+	<e:Image id="quan2" source="yue.kuang" x="316" y="272" visible="false" />
+	<e:Scroller width="452" height="518" y="316" anchorOffsetX="0" horizontalCenter="1" anchorOffsetY="0">
+		<e:Group id="itemGroup" />
+	</e:Scroller>
+	<e:Group x="203" y="266">
+		<e:Image source="jingcai.txtbg" y="3" x="7" />
+		<e:Image id="btnWangqitxt" source="jingcai.txtWangqi" x="137" y="12" />
+		<e:Image id="btnJingcaitxt" source="jingcai.txtJingcai" x="24" y="12" />
+		<e:Image id="btnJingcai" source="jingcai.btnJingcai" x="0" y="0" />
+		<e:Image id="btnWangqi" source="jingcai.btnWangqi" x="102" y="0" visible="false" />
+	</e:Group>
+</e:Skin>

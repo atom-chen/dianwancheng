@@ -1,0 +1,14 @@
+{"file":"rankgold.png","frames":{
+"0":{"x":0,"y":70,"w":16,"h":19,"offX":0,"offY":0,"sourceW":16,"sourceH":19},
+"1":{"x":25,"y":0,"w":11,"h":18,"offX":0,"offY":0,"sourceW":11,"sourceH":18},
+"2":{"x":18,"y":49,"w":15,"h":18,"offX":0,"offY":0,"sourceW":15,"sourceH":18},
+"3":{"x":35,"y":49,"w":15,"h":18,"offX":0,"offY":0,"sourceW":15,"sourceH":18},
+"4":{"x":41,"y":24,"w":14,"h":18,"offX":0,"offY":0,"sourceW":14,"sourceH":18},
+"5":{"x":0,"y":49,"w":16,"h":19,"offX":0,"offY":0,"sourceW":16,"sourceH":19},
+"6":{"x":0,"y":91,"w":15,"h":19,"offX":0,"offY":0,"sourceW":15,"sourceH":19},
+"7":{"x":17,"y":91,"w":15,"h":19,"offX":0,"offY":0,"sourceW":15,"sourceH":19},
+"8":{"x":24,"y":24,"w":15,"h":18,"offX":0,"offY":0,"sourceW":15,"sourceH":18},
+"9":{"x":34,"y":91,"w":15,"h":19,"offX":0,"offY":0,"sourceW":15,"sourceH":19},
+"万":{"x":0,"y":0,"w":23,"h":22,"offX":0,"offY":0,"sourceW":23,"sourceH":22},
+"亿":{"x":0,"y":24,"w":22,"h":23,"offX":0,"offY":0,"sourceW":22,"sourceH":23},
+".":{"x":38,"y":0,"w":7,"h":8,"offX":1,"offY":11,"sourceW":9,"sourceH":19}}}

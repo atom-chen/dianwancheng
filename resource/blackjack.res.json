@@ -1,0 +1,29 @@
+{
+	"groups":[{
+			"keys":"bj.bg_mp3,blackjack_json,bj.bg,bj.cardbg",
+			"name":"blackjack"
+		}],
+	"resources":[
+		{
+			"name":"bj.bg_mp3",
+			"type":"sound",
+			"url":"assets/blackjack/music/bj.bg.mp3"
+		},
+		{
+			"name":"blackjack_json",
+			"subkeys":"bj.btn1000,bj.btn10w,bj.btn1w,bj.btnLing,bj.btnclose,bj.btnstart,bj.card_100,bj.card_101,bj.card_102,bj.card_103,bj.card_104,bj.card_105,bj.card_106,bj.card_107,bj.card_108,bj.card_109,bj.card_110,bj.card_111,bj.card_112,bj.card_113,bj.card_201,bj.card_202,bj.card_203,bj.card_204,bj.card_205,bj.card_206,bj.card_207,bj.card_208,bj.card_209,bj.card_210,bj.card_211,bj.card_212,bj.card_213,bj.card_301,bj.card_302,bj.card_303,bj.card_304,bj.card_305,bj.card_306,bj.card_307,bj.card_308,bj.card_309,bj.card_310,bj.card_311,bj.card_312,bj.card_313,bj.card_401,bj.card_402,bj.card_403,bj.card_404,bj.card_405,bj.card_406,bj.card_407,bj.card_408,bj.card_409,bj.card_410,bj.card_411,bj.card_412,bj.card_413,bj.choosebg,bj.headkuang,bj.jfbg,bj.jifen,bj.lingqubg",
+			"type":"sheet",
+			"url":"assets/blackjack/blackjack.json"
+		},
+		{
+			"name":"bj.bg",
+			"type":"image",
+			"url":"assets/blackjack/bj.bg.jpg"
+		},
+		{
+			"name":"bj.cardbg",
+			"type":"image",
+			"url":"assets/blackjack/bj.cardbg.png"
+		}
+	]
+}

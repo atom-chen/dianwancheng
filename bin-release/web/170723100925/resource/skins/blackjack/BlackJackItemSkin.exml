@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BlackJackItemSkin" width="270" height="20" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Label id="txtRank" text="99" anchorOffsetX="0" width="30" size="20" verticalCenter="1" textColor="0x773b24"
+	         textAlign="center" x="28" />
+	<e:Label id="txtName" text="名字是六个字" x="78" anchorOffsetX="0" size="18" verticalCenter="1" textColor="0x773b24"
+	         textAlign="center" width="110" />
+	<e:Label id="txtScore" text="9999" x="200" anchorOffsetX="0" size="18" verticalCenter="0" textColor="0x773b24"
+	         width="50" textAlign="center" />
+</e:Skin>

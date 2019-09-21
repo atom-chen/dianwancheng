@@ -1,0 +1,32 @@
+{
+    "data": {
+        "link": "http://html5.17letui.com/mengdou/dwc/index.html",
+        "linkhall": "http://h5.17letui.com/mengdou/dwc/index.html",
+        "shareurl": "http://h5.17letui.com/php/wx1/json.php",
+        "getinfourl": "http://h5.17letui.com/php/wx1/oauth2_openid.php?code=",
+        "turnurl": "http://h5.17letui.com/php/wx1/turn2.php",
+        "musicurl": "http://h5.17letui.com/dwc/bg.mp3",
+        "imgurl": "http://h5.17letui.com/new/dwc/icon.jpg",
+        "erweimaapi": "http://s.jiathis.com/qrcode.php?url=",
+        "erweimaurl": "http://html5.17letui.com/mengdou/dwc/index.html",
+        "versonurl": "http://h5.17letui.com/new/dwc/index.php",
+        "payurl": "",
+        "cdnurl": "http://html5.17letui.com/dwc/",
+        "gongzhonghaourl": "",
+        "headurl": "http://olpvvinwl.bkt.clouddn.com/head/",
+        "regapi": "",
+        "connectIP": "139.198.3.29",
+        "userfrom": "platform",
+        "platform": "mengdou",
+        "version": "12321312"
+    },
+    "huodong": {
+        "weixin": "萌豆互娱       （MDhuyu）",
+        "gengxin": "欢迎进入听风娱乐城，各种免费有趣的电玩游戏大集合，等你来体验！\n有任何问题,请联系美女客服",
+        "kaifu": "1,每天登陆游戏,就能参与幸运大转盘,充值,在线,也能增加抽奖次数\n2,点开游戏设置,提交游戏BUG和建议,一旦采纳,立马奖励游戏币50万\n3,每日充值任意金额,就能获取100万*vip等级的金币\n4,开服起,游戏会不定时发放游戏币红包,让你嗨翻天",
+        "shouchong": "游戏的第一次充值总是珍贵，为了感谢您，现在首充多送100万金币，更有转盘抽奖等着你。",
+        "yueka": "游戏中现加入月卡终身卡服务，购买月卡终身卡，每天都能领取百万金币，更会减少系统抽水比例。",
+        "free": "点击大厅右上角免费金币按钮，获取最新免费金币获得方法。",
+        "shengming": "1、本游戏高仿线下各大商城及购物中心的电玩游戏，游戏中使用的游戏币均为游戏道具，不具有任何财产性功能，仅限用户本人在游戏中使用，所有礼品均非游戏币(金币)直接购买产生，其产生形式与线下各大商城及购物中心的电玩城一样。\n2、除了官方充值，本游戏没有任何其他游戏币购买形式，请玩家注意甄别。由此造成的损失，本公司不承担赔偿责任。\n3、严禁用户之间在游戏中及线下进行任何相互叫卖、转让游戏币等行为，如一经查出则永久封号。\n4、本公司对用户拥有的游戏币不提供任何形式的官方回购、直接兑换现金或实物，相互赠予转让及相关功能。\n5、任何破坏游戏公平性或其他影响游戏正常运营的行为，如刷游戏币、使用外挂、利用BUG获得不正当收益行为都将永久封号。"
+    }
+}

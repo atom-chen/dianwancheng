@@ -1,0 +1,123 @@
+var __reflect = (this && this.__reflect) || function (p, c, t) {
+    p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
+};
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var SignPanel = (function (_super) {
+    __extends(SignPanel, _super);
+    function SignPanel() {
+        var _this = _super.call(this) || this;
+        _this.curNum = 0;
+        _this.rate = 0;
+        _this.coinArr = [10000, 20000, 30000, 40000, 50000, 60000, 70000];
+        _this.isPlayMusic = false;
+        _this.skinName = "resource/skins/sign/SignPanelSkin.exml";
+        return _this;
+    }
+    SignPanel.prototype.childrenCreated = function () {
+        this.isPlayMusic = false;
+        for (var i = 1; i < 8; i++) {
+            this['labMoney' + i].text = this.coinArr[i - 1];
+            this['sign' + i].visible = false;
+        }
+        EventManage.addButtonEvent(this, this.btnClose, egret.TouchEvent.TOUCH_TAP, this.onTouchClose.bind(this));
+        EventManage.addButtonEvent(this, this.btnget, egret.TouchEvent.TOUCH_TAP, this.onTouchGet.bind(this));
+        EventManage.addButtonEvent(this, this.btnup, egret.TouchEvent.TOUCH_TAP, this.onTouchUp.bind(this));
+        EventManage.addEvent(this, this.closeRect, egret.TouchEvent.TOUCH_TAP, this.dispose.bind(this));
+        this.labVipInfo.text = '';
+        this.labVipMoney0.text = '';
+        this.labVipMoney1.text = '';
+        Net.send(Protocol.HALL_SIGN_GET, {}, this.signCallback.bind(this));
+    };
+    SignPanel.prototype.signCallback = function (msg) {
+        if (msg.code == 200) {
+            this.curNum = msg.count;
+            for (var i = 1; i < 8; i++) {
+                if (i < (this.curNum + 1)) {
+                    this['sign' + i].visible = true;
+                }
+                else {
+                    this['sign' + i].visible = false;
+                }
+            }
+            this.rate = 100 + parseInt(msg.percent);
+            if (parseInt(GlobalData.user.vip) == 0) {
+                this.labVipInfo.text = '请您领取您今日的签到奖励'; //显示
+            }
+            else {
+                this.labVipInfo.text = '尊贵的vip' + GlobalData.user.vip + '玩家，请您领取您今日的签到奖励'; //显示
+            }
+            this.labVipMoney0.text = this.coinArr[this.curNum] + '';
+            this.labVipMoney1.text = 'x' + this.rate + '%'; //根据不同的vip 显示不同的阶段
+            this.setBtnGet(!msg.hasSign);
+        }
+    };
+    SignPanel.prototype.setBtnGet = function (bl) {
+        if (bl) {
+            this.btnget.touchEnabled = true;
+            this.btnget.source = 'sign.btnget';
+        }
+        else {
+            this.btnget.touchEnabled = false;
+            this.btnget.source = 'sign.btnget2';
+        }
+    };
+    SignPanel.prototype.onTouchGet = function () {
+        if (this.isPlayMusic == false) {
+            if (!GlobalData.isDebug) {
+                MusicManage.playBgMuisc();
+            }
+            this.isPlayMusic = true;
+        }
+        Net.send(Protocol.HALL_SIGN_SIGN, {}, this.daySignCallback.bind(this));
+    };
+    SignPanel.prototype.onTouchUp = function () {
+        if (this.isPlayMusic == false) {
+            if (!GlobalData.isDebug) {
+                MusicManage.playBgMuisc();
+            }
+            this.isPlayMusic = true;
+        }
+        PanelManage.openShop();
+    };
+    SignPanel.prototype.daySignCallback = function (msg) {
+        if (msg.code == 200) {
+            // this.btnget.visible = false;
+            this.setBtnGet(false);
+            GlobalData.user.gold = msg.gold;
+            this['sign' + (this.curNum + 1)].visible = true;
+            var xx = 120 + 190 * (this.curNum % 3);
+            var yy = 260 + 140 * (this.curNum / 3);
+            EffectUtils.coinsFly(this, xx, yy);
+            // EffectUtils.coinsFly(this, this['sign' + (this.curNum + 1)].x + 78, this['sign' + (this.curNum + 1)].y + 30, 108, 58)
+            lcp.LListener.getInstance().dispatchEvent(new lcp.LEvent(EventData.UPDATE_MAIN));
+        }
+    };
+    SignPanel.prototype.onTouchClose = function () {
+        if (this.isPlayMusic == false) {
+            if (!GlobalData.isDebug) {
+                MusicManage.playBgMuisc();
+            }
+            this.isPlayMusic = true;
+        }
+        this.dispose();
+    };
+    SignPanel.prototype.dispose = function () {
+        if (this.parent) {
+            this.parent.removeChild(this);
+        }
+        EventManage.removeEvent(this);
+        if (GlobalData.isFirstShowSign) {
+            PanelManage.openActive();
+            GlobalData.isFirstShowSign = false;
+        }
+    };
+    SignPanel.prototype.setTouchEnabled = function () {
+        QuickManage.setTouchEnabled(this);
+    };
+    return SignPanel;
+}(eui.Component));
+__reflect(SignPanel.prototype, "SignPanel", ["fany.IDispose"]);

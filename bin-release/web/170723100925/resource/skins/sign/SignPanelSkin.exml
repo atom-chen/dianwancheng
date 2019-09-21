@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SignPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="progress">
+			<tween:TweenItem target="{progressMask}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{3.67}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="2950">
+					<tween:props>
+						<e:Object width="{423}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<e:Rect id="closeRect" width="640" height="1008" x="0" y="-2" fillAlpha="0.6" />
+	<e:Image source="c.bg" horizontalCenter="0" verticalCenter="20" />
+	<e:Image id="btnClose" source="c.btnclose" x="564" y="156.74" />
+	<e:Label id="labVipInfo" text="尊贵的vip5玩家，请您领取您今日的签到奖励" x="254" y="547.17" size="15" anchorOffsetX="0" width="320" textAlign="center" textColor="0xd7bafa" bold="true"/>
+	<e:Image id="btnget" x="322.5" y="576.67"  source="sign.btnget"/>
+	<e:Image id="btnup" y="811.34" horizontalCenter="0"  source="sign.btnup"/>
+	<e:Group x="45" y="202">
+		<e:Image source="sign.itembg" x="0" y="0"/>
+		<e:Image source="sign.coins0" y="28.6" x="41" locked="true"/>
+		<e:Image y="122.2" source="sign.day1" x="61"/>
+		<e:Label id="labMoney1" text="1234567890" y="93.6" size="16" anchorOffsetX="0" width="110" textAlign="center" bold="true" x="36" textColor="0xfade4b"/>
+		<e:Image id="sign1" source="sign.has" x="-17" y="28.5"/>
+	</e:Group>
+	<e:Group y="202" x="229">
+		<e:Image source="sign.itembg" x="0" y="0" locked="true"/>
+		<e:Image source="sign.coins0" y="28.6" x="41" locked="true"/>
+		<e:Image y="122.2" source="sign.day2" x="61" locked="true"/>
+		<e:Label id="labMoney2" text="1234567890" y="93.6" textColor="0xFADE4B" size="16" anchorOffsetX="0" width="110" textAlign="center" bold="true" x="36"/>
+		<e:Image id="sign2" source="sign.has" x="-17" y="28.5"/>
+	</e:Group>
+	<e:Group x="413" y="202">
+		<e:Image source="sign.itembg" x="0" y="0" locked="true"/>
+		<e:Image source="sign.coins0" y="28.6" x="41" locked="true"/>
+		<e:Image y="122.2" source="sign.day3" x="61" locked="true"/>
+		<e:Label id="labMoney3" text="1234567890" y="93.6" textColor="0xFADE4B" size="16" anchorOffsetX="0" width="110" textAlign="center" bold="true" x="36"/>
+		<e:Image id="sign3" source="sign.has" x="-17" y="28.5"/>
+	</e:Group>
+	<e:Group x="45" y="350">
+		<e:Image source="sign.itembg" x="0" y="0" locked="true"/>
+		<e:Image source="sign.coins0" y="28.6" x="41" locked="true"/>
+		<e:Image y="122.2" source="sign.day4" x="61" locked="true"/>
+		<e:Label id="labMoney4" text="1234567890" y="93.6" textColor="0xFADE4B" size="16" anchorOffsetX="0" width="110" textAlign="center" bold="true" x="36"/>
+		<e:Image id="sign4" source="sign.has" x="-17" y="28.5"/>
+	</e:Group>
+	<e:Group x="229" y="350">
+		<e:Image source="sign.itembg" x="0" y="0" locked="true"/>
+		<e:Image source="sign.coins1" y="28.6" x="41" locked="true"/>
+		<e:Image y="122.2" source="sign.day5" x="61" locked="true"/>
+		<e:Label id="labMoney5" text="1234567890" y="93.6" textColor="0xFADE4B" size="16" anchorOffsetX="0" width="110" textAlign="center" bold="true" x="36"/>
+		<e:Image id="sign5" source="sign.has" x="-17" y="28.5"/>
+	</e:Group>
+	<e:Group x="413" y="349">
+		<e:Image source="sign.itembg" x="0" y="0" locked="true"/>
+		<e:Image source="sign.coins1" y="28.6" x="41" locked="true"/>
+		<e:Image y="122.2" source="sign.day6" x="61" locked="true"/>
+		<e:Label id="labMoney6" text="1234567890" y="93.6" textColor="0xFADE4B" size="16" anchorOffsetX="0" width="110" textAlign="center" bold="true" x="36"/>
+		<e:Image id="sign6" source="sign.has" x="-17" y="28.5"/>
+	</e:Group>
+	<e:Group x="45" y="496.67">
+		<e:Image source="sign.itembg" x="0" y="0" locked="true"/>
+		<e:Image source="sign.coins1" y="28.6" x="41" locked="true"/>
+		<e:Image y="122.2" source="sign.day7" x="61" locked="true"/>
+		<e:Label id="labMoney7" text="1234567890" y="93.6" textColor="0xFADE4B" size="16" anchorOffsetX="0" width="110" textAlign="center" bold="true" x="36"/>
+		<e:Image id="sign7" source="sign.has" x="-17" y="28.5"/>
+	</e:Group>
+	<e:Image y="744"  source="sign.coinbg" x="110"/>
+	<e:Image id="progressBg" source="sign.coinbar" x="110" y="744" mask="progressMask" visible="false"/>
+	<e:Image id="progressMask" source="sign.coinbar" x="110" y="744" visible="false"/>
+	<e:Image y="697.33" horizontalCenter="0"  source="sign.nextvip"/>
+	<e:Label id="labVipMoney1" text="x600%" x="452.34" y="750.89" size="20" anchorOffsetX="0" width="74.67"
+	         textAlign="right"  textColor="0xffffff"/>
+	<e:Image source="sign.coins0" x="79" y="724.39"/>
+	<e:Image y="672" horizontalCenter="0" source="sign.line"/>
+	<e:Image y="150.24" source="sign.title" x="226"/>
+	<e:BitmapLabel id="labVipMoney0" width="291.83" height="20" x="172.5" y="750.5" font="goldtext_fnt" text="0123456789" anchorOffsetX="0"/>
+</e:Skin>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TaskPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect id="closeRect" width="640" height="1008" x="0" y="0" fillAlpha="0.6"/>
+	<e:Image horizontalCenter="0" verticalCenter="20" source="c.bg"/>
+	<e:Image id="btnClose" source="c.btnclose" x="561" y="163.82"/>
+	<e:Image y="153.82" source="task.title" horizontalCenter="0"/>
+	<e:Scroller width="540" height="612" y="243" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:Group id="grpContent"/>
+	</e:Scroller>
+</e:Skin>

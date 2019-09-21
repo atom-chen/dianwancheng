@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="EmailItemPanelSkin" width="446" height="111" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Image source="c.itembg" x="0" y="0" />
+	<e:Label id="labName" text="客服" x="20" y="17" anchorOffsetX="0" width="231" textColor="0xffff00" size="22"
+	         fontFamily="微软雅黑" />
+	<e:Label id="labDesc" text="恭喜恭喜啦" x="20" y="51" anchorOffsetX="0" width="406" textColor="0xffffff" size="22"
+	         fontFamily="微软雅黑" rotation="359.9" />
+	<e:Label id="labTime" text="22:22" x="142" y="21" anchorOffsetX="0" width="290" textColor="0xFFFF00" textAlign="right"
+	         fontFamily="微软雅黑" size="16" />
+</e:Skin>

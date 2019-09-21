@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardPanelSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="dh.a1" x="0" anchorOffsetY="0" height="1008" y="0" width="640" />
+	<e:Image id="btnExchange" source="dh.b1" y="876.33" />
+	<e:Image id="btnMyGift" source="dh.b2" x="216" y="876.33" />
+	<e:Image id="btnRecord" source="dh.b3" y="876.33" x="432" />
+	<e:Image source="dh.a3" x="19" y="12" scale9Grid="53,5,85,35" anchorOffsetX="0" width="209" />
+	<e:Label id="labGold" y="19" textColor="0xFCFC00" text="" textAlign="right" bold="true" width="152" size="30" x="66.33"
+	         anchorOffsetX="0" height="30" />
+	<e:Label id="labShop" y="71" textColor="0xFCFC00" text="" textAlign="left" bold="true" width="280" size="30" x="18"
+	         height="30" />
+	<e:Label id="labUser" y="69" textColor="0xFCFC00" text="" textAlign="right" bold="true" width="139" size="30"
+	         x="478.33" height="30" />
+	<e:Group x="0" y="140">
+		<e:Image source="dh.a2" x="0" y="602" />
+		<e:Image source="dh.a2" x="0" y="231" />
+		<e:Image id="game5" source="dh.game5" x="420" y="374" />
+		<e:Image id="game4" source="dh.game4" x="220" y="374" />
+		<e:Image id="game3" source="dh.game3" x="20" y="374" />
+		<e:Image id="game2" source="dh.game2" x="420" y="0" />
+		<e:Image id="game1" source="dh.game1" x="220" y="0" />
+		<e:Image id="game0" source="dh.game0" x="20" y="0" />
+		<e:Image source="dh.a3" x="38" y="281" locked="true" />
+		<e:Image source="dh.a3" y="281" x="238" locked="true" />
+		<e:Image source="dh.a3" y="280" x="438" locked="true" />
+		<e:Image source="dh.a3" y="651" x="38.5" locked="true" />
+		<e:Image source="dh.a3" y="651" x="238.5" locked="true" />
+		<e:Image source="dh.a3" y="650" x="438.5" locked="true" />
+		<e:Label id="labMoney0" text="" x="85" y="289" textColor="0xFCFC00" size="30" width="105" bold="true"
+		         textAlign="center" height="30" />
+		<e:Label id="labMoney1" y="289" textColor="0xFCFC00" text="" textAlign="center" bold="true" width="105" size="30"
+		         x="285" height="30" />
+		<e:Label id="labMoney2" y="289" textColor="0xFCFC00" text="" textAlign="center" bold="true" width="105" size="30"
+		         x="486" height="30" />
+		<e:Label id="labMoney3" y="658" textColor="0xFCFC00" text="" textAlign="center" bold="true" width="105" size="30"
+		         x="84" height="30" />
+		<e:Label id="labMoney4" y="658" textColor="0xFCFC00" text="" textAlign="center" bold="true" width="105" size="30"
+		         x="284" height="30" />
+		<e:Label id="labMoney5" y="658" textColor="0xFCFC00" text="" textAlign="center" bold="true" width="105" size="30"
+		         x="485" height="30" />
+	</e:Group>
+	<e:Group id="grpSecond" x="0" y="0" visible="false">
+		<e:Rect id="bggGrp" width="640" height="1008" x="0" y="0" fillAlpha="0.3" />
+		<e:Image y="84" source="c.bg" horizontalCenter="0" />
+		<e:Image id="subBtnClose" source="c.btnclose" x="563" y="116" />
+		<e:Image id="subImgTitle" y="110" source="award.title0" horizontalCenter="0" />
+		<e:Scroller id="scroll" width="540" height="572" y="188" anchorOffsetY="0" horizontalCenter="0">
+			<e:Group id="subGrpContent"></e:Group>
+		</e:Scroller>
+		<e:Image id="btnAddress" source="address.btnAddress" x="406" y="783.5" />
+		<e:Group id="addressGroup" horizontalCenter="0" verticalCenter="-74" visible="false">
+			<e:Image source="chat.inputbg" y="63" height="41" x="0" />
+			<e:Image source="chat.inputbg" y="117" height="41" x="0" />
+			<e:Image source="chat.inputbg" y="171" anchorOffsetY="0" height="41" x="0" />
+			<e:Image id="btnSure" source="ds.btnsure" x="61" y="235" />
+			<e:Image source="address.title" y="0" x="100" />
+			<e:EditableText id="txtPhone" width="356" height="38" text="" x="6" y="63" anchorOffsetY="0" anchorOffsetX="0"
+			                textAlign="center" verticalAlign="middle" prompt="请输入电话" />
+			<e:EditableText id="txtName" width="356" height="38" text="" x="6" y="117.5" anchorOffsetY="0" anchorOffsetX="0"
+			                textAlign="center" verticalAlign="middle" prompt="请输入姓名" />
+			<e:EditableText id="txtAddress" width="356" height="38" text="" x="6" y="173" anchorOffsetY="0" anchorOffsetX="0"
+			                textAlign="center" verticalAlign="middle" prompt="请输入地址" />
+		</e:Group>
+	</e:Group>
+	<e:Group id="grpTips" x="0" y="0" visible="false">
+		<e:Rect id="bggGrp1" width="640" height="1008" x="0" y="0" fillAlpha="0.3" />
+		<e:Image anchorOffsetY="0" height="394" horizontalCenter="0" verticalCenter="-42" source="c.bg"
+		         scale9Grid="93,111,434,516" />
+		<e:Label id="grpTipsTitle" text="" y="292" size="40" horizontalCenter="0" bold="true" anchorOffsetX="0" width="388"
+		         textAlign="center" textColor="0xFFDE00" height="40" />
+		<e:Label id="grpTipsInfo" text="" y="430.67" size="35" bold="true" anchorOffsetX="0" width="482" textAlign="center"
+		         horizontalCenter="0" textColor="0xf7dd40" height="35" />
+		<e:Label text="√" y="549" size="40" textColor="0xF2F8F1" bold="true" anchorOffsetX="0" width="35" textAlign="center"
+		         x="229" visible="false" />
+		<e:Image id="tipsBtnClose" source="c.btnclose" x="562" y="296" />
+		<e:Image id="btnSureBuy" x="199.33" y="539.33" source="c.btnsure" />
+	</e:Group>
+	<e:Image id="btnClose" x="522" y="7" source="c.btnclose2" />
+</e:Skin>

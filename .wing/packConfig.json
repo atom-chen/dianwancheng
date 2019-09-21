@@ -1,0 +1,10 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "d:\\trunk\\my\\pengxiao\\dianwancheng\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true,
+        "loading": true
+    }
+}

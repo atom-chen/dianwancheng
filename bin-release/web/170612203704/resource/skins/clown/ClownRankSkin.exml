@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ClownRankSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15c1500f12b" scale9Grid="25,26,71,69" anchorOffsetX="0" horizontalCenter="2" width="594" anchorOffsetY="0" height="728"/>
+	<e:Rect id="closeRect" width="640" height="1008" fillAlpha="0.6"/>
+	<e:Image source="clown_bht_back" y="129" horizontalCenter="0" scale9Grid="28,28,69,68" width="550" height="750"/>
+	<e:Image id="btnClose" source="clown_close" x="562" y="116"/>
+	<e:Image y="71" horizontalCenter="0.5" source="clown_king_title"/>
+	<e:Image source="clown_king_tab_back" x="143" y="195"/>
+	<e:Image id="btnToday" source="clown_king_daily" x="147.5" y="199"/>
+	<e:Image id="btnWeek" source="clown_king_week_s" x="320" y="199"/>
+	<e:Scroller width="493" height="587" y="255" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0">
+		<e:Group id="itemGroup"/>
+	</e:Scroller>
+</e:Skin>
