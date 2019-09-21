@@ -16,13 +16,13 @@ module GlobalData {
   export var tableState: string = "0";//0 空闲  1，游戏中
   export var isSign: boolean = false; //是否已经签到 0未签到
   export var platform: string = "my2016";
-  export var userfrom: string = "";
+  export var userfrom: string = "weixin";
   export var version: string = "";
   export var account: string = "";
   export var huancun: any = null;
   //ip
-  export var connectIP: string = '139.198.3.29';//211.149.207.220  kaixuan-pc
-  export var connectPort: number = 7010;//54716
+  export var connectIP: string = '127.0.0.1';
+  export var connectPort: number = 7010;
 
   export var cdnResUrl: string = '';//  
   export var curData: Array<any> = [];//54716
